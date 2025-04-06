@@ -48,3 +48,10 @@ a,
 p {
   font-size: 1.1rem;
 }
+
+@media (max-width: 800px){
+  main{
+    position: relative;
+    top: 10vh;
+  }
+}
