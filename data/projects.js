@@ -1,6 +1,6 @@
 export const projects = [
     {
-      title: "Primer proyecto",
+      title: "Pokemon Iniciales",
       description: "Mini enciclopedia de pokemon inicales de cada region con sus evoluciones hasta la temporada más actual",
       image:
         "../public/proyecto1.png",
@@ -9,7 +9,7 @@ export const projects = [
       link: "https://pokemoniniciales.netlify.app/",
     },
     {
-      title: "Segundo proyecto",
+      title: "Pokevilla",
       description: "Proyecto de creacion de una tiendo con disposicion de diversos producto con funcion de filtros tanto de busqueda como por seleccion segun el tipo de articulo",
       image:
         "../public/proyecto2.png",
