@@ -27,5 +27,8 @@
   }
 
   .texto{
+    padding: 1.5rem;
+    border-radius: 20px;
     text-align: justify;
+    background-color: rgba(0, 0, 0, 0.5);
   }
