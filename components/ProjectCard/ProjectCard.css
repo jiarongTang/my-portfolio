@@ -49,3 +49,7 @@
   .project-card > .detail > .tech {
     color: var(--highlight);
   }
+
+  .light .project-card{
+    background-color: rgba(180, 180, 180, 0.8);
+  }

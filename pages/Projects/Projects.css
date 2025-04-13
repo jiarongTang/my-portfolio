@@ -11,6 +11,7 @@
   @media (max-width: 770px) {
     .projects {
       padding: 0 2rem;
+      margin-bottom: 3rem;
     }
   }
   
