@@ -1,0 +1,48 @@
+.aboutMe {
+    padding: 0 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  
+  @media (max-width: 700px) {
+    .aboutMe {
+      padding: 0 2rem;
+    }
+  }
+  
+  .section > h2 {
+    text-align: center;
+    font-size: 5.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #70e845 0%,#57c5dd 50%, #a357dd 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+  .texto2{
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    border-radius: 20px;
+  }
+
+  .light .texto2 {
+    background-color: rgba(180, 180, 180, 0.8);
+  }
+
+  .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  @media (max-width: 800px){
+    .section > h2{
+      font-size: 3.5rem;
+    }
+  }

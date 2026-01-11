@@ -30,17 +30,14 @@ html {
 }
 
 body {
-  /* background-color: var(--bg-dark); */
-  background-image: url("../public/Designer.png");
-  background-size: cover;
+  background-color: var(--bg-dark);
   color: var(--primary-dark);
   transition: all 0.5s ease-in-out;
   min-height: 100vh;
 }
 
 .light {
-  /* background-color: var(--bg-light); */
-  background-image: url("../public/descarga.png");
+  background-color: var(--bg-light);
   color: var(--primary-light);
   background-size: cover;
 }

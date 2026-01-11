@@ -9,7 +9,7 @@ export const Home = () => {
     <p>Hola, soy </p>
     <h1>Jiarong Tang</h1>
     <p class="texto">
-      Soy una estudiante de grado superior de Desarrollo de Aplicaciones Web en Madrid, España. He estado también estudiando en la universida en el grado de Ingienería Informática, pero no está finalizado por problemas personales. Los hobbies que tengo son las manualidades de cualquier tipo (origami, crochett,...). He trabajado como dependiente en tienda de venta de piezas de móviles, en bazares, y como cajera en almacenes. Tengo manejo en diferentes lenguajes de programación como html, css y javaScript. Con respecto a los lenguajes que controlo seria el chino y el españo con nivel nativo; y el inglés con nivel B2. En este portfolio hay alguno de los proyectos que he realizado.
+      Estudiante de Desarrollo de Aplicaciones Web y Máster de Full Stack, con conocimientos en base de datos y experiencia en lenguajes como Java, PHP y JavaScript. Apasionada por el desarrollo de interfaces web empleando lenguaje de marcas. En busca de trabajo y ganar experiencia en el sector tecnológico.
     </p>
     <a href="mailto:jiarong.tang.daw@gmail.com">Enviar un correo →</a>
     </section>`;
