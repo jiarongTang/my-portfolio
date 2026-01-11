@@ -7,7 +7,7 @@ import { Navbar } from "../components/Navbar/Navbar";
 import { Footer } from "../components/Footer/Footer";
 import { Home } from "../pages/Home/Home";
 import { Projects } from "../pages/Projects/Projects";
-import { About_Me } from '../pages/About_Me/about_me';
+import { About_Me } from "../pages/About_Me/About_Me";
 import { Divider } from "../components/Divider/Divider";
 
 const header = document.querySelector("header");
