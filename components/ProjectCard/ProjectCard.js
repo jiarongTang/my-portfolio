@@ -2,7 +2,9 @@ import "./ProjectCard.css";
 
 export const ProjectCard = (project) => `
 <div class="project-card">
-<img src=${project.image} alt=${project.title}/>
+<div class="portada">
+<img src=${project.image} alt=${project.title} />
+</div>
 <div class="header">
 <h2>${project.title}</h2>
 <div>
