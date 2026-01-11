@@ -29,6 +29,7 @@
     padding: 1.5rem;
     font-size: 1.3rem;
     border-radius: 20px;
+    background-color: rgba(153, 153, 153, 0.8);
   }
 
   .light .texto2 {
@@ -38,6 +39,7 @@
   .skills{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     gap: 20px;
   }
 
