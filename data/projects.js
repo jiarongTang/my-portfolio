@@ -19,7 +19,7 @@ export const projects = [
     },
     {
       title: "Comic BBDD",
-      description: "Proyecto de creacion de una tiendo con disposicion de diversos producto con funcion de filtros tanto de busqueda como por seleccion segun el tipo de articulo",
+      description: "Proyecto de creacion de una base de datos de comics con funciones CRUD (crear, leer, actualizar y eliminar) utilizando LocalStorage para almacenar los datos de manera persistente en el navegador.",
       image:
         "/proyecto3.PNG",
       tech: ["HTML5", "CSS3", "JavaScript"],
