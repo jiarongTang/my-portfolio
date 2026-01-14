@@ -17,4 +17,13 @@ export const projects = [
       github: "https://github.com/jiarongTang/practicaDOM.git",
       link: "https://pokevilla.netlify.app/",
     },
+    {
+      title: "Comic BBDD",
+      description: "Proyecto de creacion de una tiendo con disposicion de diversos producto con funcion de filtros tanto de busqueda como por seleccion segun el tipo de articulo",
+      image:
+        "/proyecto3.PNG",
+      tech: ["HTML5", "CSS3", "JavaScript"],
+      github: "https://github.com/jiarongTang/Comic.git",
+      link: "https://comicbbdd.netlify.app/",
+    },
 ];

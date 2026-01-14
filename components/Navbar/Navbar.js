@@ -22,13 +22,13 @@ export const Navbar = () => `
 <h2>Jiarong Tang</h2>
 <ul>
     <li>
-        <a href="#" id="homelink">Home</a>
+        <a href="#" id="homelink">Sobre mi</a>
     </li>
     <li>
-        <a href="#" id="aboutMelink">About Me</a>
+        <a href="#" id="aboutMelink">Skills</a>
     </li>
     <li>
-        <a href="#" id="projectslink">Projects</a>
+        <a href="#" id="projectslink">Projectos</a>
     </li>
     <li>
         <button id="themeBtn">☀</button>
