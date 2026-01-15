@@ -8,7 +8,7 @@ export const About_Me = () => {
     <section class="aboutMe">
         <div class="section">
             <h2>Softskills</h2>
-            <ul class="skills texto2">
+            <ul class="skills">
                 <li>Trabajo en equipo</li>
                 <li>Gestión de estrés</li>
                 <li>Adaptabilidad</li>
@@ -17,7 +17,7 @@ export const About_Me = () => {
         </div>
         <div class="section">
             <h2>Hardskills</h2>
-            <ul class="skills texto2">
+            <ul class="skills">
                 <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>

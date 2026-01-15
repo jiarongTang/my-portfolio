@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --primary-dark: whitesmoke;
+  --primary-dark: white;
   --bg-dark: #111111;
   --primary-light: #111111;
-  --bg-light: whitesmoke;
+  --bg-light: white;
   --highlight: #6cace4;
   --divider: rgb(164, 164, 164);
 }
@@ -15,6 +15,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 
 li {
   list-style-type: none;
@@ -43,7 +44,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 a,

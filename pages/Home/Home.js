@@ -6,10 +6,10 @@ export const Home = () => {
   cleanPage(main);
   main.innerHTML = `
     <section class="home">
-    <p>Hola, soy </p>
+    <p class="texto">Hola, soy </p>
     <h1>Jiarong Tang</h1>
     <p class="texto">
-      Estudiante de Desarrollo de Aplicaciones Web y Máster de Full Stack, con conocimientos en base de datos y experiencia en lenguajes como Java, PHP y JavaScript. Apasionada por el desarrollo de interfaces web empleando lenguaje de marcas. En busca de trabajo y ganar experiencia en el sector tecnológico.
+      Estudiante de Desarrollo de Aplicaciones Web y Máster de Full Stack, con conocimientos en base de datos y experiencia en lenguajes como Java, PHP y JavaScript. Apasionada por el desarrollo de interfaces web empleando lenguaje de marcas. En busca de trabajo y ganar experiencia en el sector tecnológico. Tambien domino el chino mandarín, mi lengua materna, y tengo un nivel avanzado de inglés.
     </p>
     <a href="mailto:jiarong.tang.daw@gmail.com">Enviar un correo →</a>
     <a href="/curriculum.pdf" download="curriculum_jiarong_tang.pdf" class="boton-curriculum">Descargar CV</a>

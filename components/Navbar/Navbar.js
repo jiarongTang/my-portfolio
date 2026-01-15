@@ -28,6 +28,9 @@ export const Navbar = () => `
         <a href="#" id="aboutMelink">Skills</a>
     </li>
     <li>
+        <a href="#" id="experiencialink">Experiencia Laboral</a>
+    </li>
+    <li>
         <a href="#" id="projectslink">Projectos</a>
     </li>
     <li>

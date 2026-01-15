@@ -1,4 +1,4 @@
-.aboutMe {
+.experiencia {
     padding: 0 4rem;
     min-height: 80vh;
     display: grid;
@@ -9,7 +9,7 @@
   }
   
   @media (max-width: 700px) {
-    .aboutMe {
+    .experiencia {
       padding: 0 2rem;
     }
   }
@@ -26,22 +26,8 @@
   }
   
 
-  .skills{
-    padding: 1.5rem;
-    font-size: 1.3rem;
-    border-radius: 20px;
-    background-color: rgba(153, 153, 153, 0.8);
-  }
-
   .light .skills{
     background-color: rgba(180, 180, 180, 0.8);
-  }
-
-  .skills{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 20px;
   }
 
   @media (max-width: 800px){
