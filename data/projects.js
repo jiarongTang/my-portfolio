@@ -26,4 +26,13 @@ export const projects = [
       github: "https://github.com/jiarongTang/Comic.git",
       link: "https://comicbbdd.netlify.app/",
     },
+    {
+      title: "Ricky Morty",
+      description: "Listado de los personajes de la serie Rick and Morty obtenida a traves de una API externa, con paginacion y seleccion de personaje mostrando los episodios en los que aparece.",
+      image:
+        "/proyecto4.PNG",
+      tech: ["HTML5", "CSS3", "JavaScript"],
+      github: "https://github.com/jiarongTang/RickMorty.git",
+      link: "https://rickmortymostar.netlify.app/",
+    },
 ];
