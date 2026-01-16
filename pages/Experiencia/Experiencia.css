@@ -1,37 +1,34 @@
 .experiencia {
-    padding: 0 4rem;
+    padding: 0 8rem;
     min-height: 80vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 3rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 770px) {
     .experiencia {
       padding: 0 2rem;
+      margin-bottom: 3rem;
     }
   }
   
-  .section > h2 {
-    text-align: center;
-    font-size: 5.5rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: linear-gradient(to right, #70e845 0%,#57c5dd 50%, #a357dd 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .experiencia > h2 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1rem;
   }
   
-
-  .light .skills{
-    background-color: rgba(180, 180, 180, 0.8);
+  .experiencia-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    gap: 3rem;
   }
-
-  @media (max-width: 800px){
-    .section > h2{
-      font-size: 3.5rem;
+  
+  @media (max-width: 770px) {
+    .experiencia-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
   }

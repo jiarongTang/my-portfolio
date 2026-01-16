@@ -1,18 +1,22 @@
 import "./Experiencia.css";
 import { cleanPage } from "../../utils/cleanPage";
+import { Divider } from "../../components/Divider/Divider";
+import { ExperienciaCard } from "../../components/ExperienciaCard/ExperienciaCard";
+import { experiencias } from "../../data/experiencias";
 
-export const About_Me = () => {
+export const Experiencia = () => {
   const main = document.querySelector("main");
   cleanPage(main);
   main.innerHTML = `
     <section class="experiencia">
-        <div class="experienciaContainer">
-            <h2>Desarrollador Junior (Practicas)</h2>
-            <h3>FirstLine S.L. (Madrid)</h3>
-            <ul>
-                <li>Desarrollo de flujos basicos para automatizar procesos internos simulados</li>
-                <li> Aprendizaje de conceptos basicos de automatizacion N8N</li>
-            </ul>
-        </div>
+        <h2>Experiencia laboral</h2>
+        ${Divider()}
+        <div class="experiencia-container">
     </section>`;
+    const container = document.querySelector(".experiencia-container");
+    for (const experiencia of experiencias) {
+        const figure = document.createElement("figure");
+        figure.innerHTML = ExperienciaCard(experiencia);
+        container.appendChild(figure);
+    }
 };
